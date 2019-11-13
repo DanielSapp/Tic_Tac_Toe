@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="MenuTextBox">Welcome to Tic-Tac-Toe!</string>
+    <string name="MenuButtonText">Click here to begin!</string>
+    <string name="GameTextViewStartingText">Player one, it is your turn!</string>
+    <string name="TicTacToeImageDescription">Tic Tac Toe board</string>
+</resources>
