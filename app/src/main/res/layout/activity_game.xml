@@ -31,71 +31,98 @@
         android:id="@+id/ULButton"
         android:layout_width="120dp"
         android:layout_height="123dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="264dp" />
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="264dp"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/UMButton"
         android:layout_width="114dp"
         android:layout_height="124dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="262dp" />
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="262dp"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/URButton"
         android:layout_width="114dp"
         android:layout_height="112dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="284dp"
-        tools:layout_editor_absoluteY="266dp" />
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="266dp"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/MMButton"
         android:layout_width="125dp"
         android:layout_height="120dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="402dp" />
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="402dp"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/RRButton"
         android:layout_width="131dp"
         android:layout_height="127dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="278dp"
-        tools:layout_editor_absoluteY="400dp" />
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="400dp"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/MLButton"
         android:layout_width="132dp"
         android:layout_height="127dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="400dp" />
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="400dp"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/BLButton"
         android:layout_width="132dp"
         android:layout_height="137dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="534dp" />
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="534dp"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/BMButton"
         android:layout_width="130dp"
         android:layout_height="133dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="534dp" />
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="534dp"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/BRButton"
         android:layout_width="132dp"
         android:layout_height="132dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="277dp"
-        tools:layout_editor_absoluteY="533dp" />
+        android:layout_marginStart="277dp"
+        android:layout_marginTop="533dp"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
