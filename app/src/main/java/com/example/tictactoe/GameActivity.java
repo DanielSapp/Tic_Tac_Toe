@@ -85,7 +85,11 @@ public class GameActivity extends AppCompatActivity {
         //TODO
     }
     private boolean isVerticalWin() {
-        //TODO
+        for (int i = 0; i < 3; i++) {
+            if (gameState[i] == currentPlayer && (gameState[i+3] == gameState[i] && gameState[i+6] == gameState[i])) {
+                return true;
+            }
+        }
         return false;
     }
     private boolean isDiagonalWin() {
